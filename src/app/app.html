@@ -1,0 +1,9 @@
+<ion-split-panel when="lg">
+
+  <ion-nav [root]="mainRoot" main #content></ion-nav>
+
+  <ion-menu [content]="content">
+    <ion-nav [root]="sidePanelRoot" #sideMenu></ion-nav>
+  </ion-menu>
+
+</ion-split-panel>
